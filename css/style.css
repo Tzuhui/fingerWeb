@@ -1,0 +1,173 @@
+﻿@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url('https://fonts.googleapis.com/css?family=Dosis|Quicksand');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+.navigation_ground {
+	width: 100vw;
+	height: 150px;
+	padding: 0;
+	background-color: #2F2F2F;
+}
+
+.logo {
+	width: 18vw;
+	float: left;
+}
+
+.navigation #logo {
+	width: 18vw;
+	height: 80%;
+}
+
+.navigation {
+	font-family: 'Noto Sans TC', '微軟正黑體';
+	font-size: 1vw;
+	font-weight: 800;
+	width: 94vw;
+	height: 150px;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	overflow: hidden;
+	background-color: #2F2F2F;
+}
+
+.navigation label {
+	width: 13vw;
+	text-align: center;
+	margin-top: 30px;
+	display: block;
+	float: right;
+	color: #E8E8E8;
+	opacity: 0.2;
+}
+
+.navigation label:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+.navigation label .icon {
+	font-size: 30px;
+	border: solid 2px #E8E8E8;
+	text-align: center;
+	height: 50px;
+	width: 50px;
+	display: block;
+	margin: 0 auto;
+	line-height: 50px;
+	border-radius: 50%;
+}
+
+.navigation label span {
+	text-shadow: 5px 5px 5px #1A1A1A;
+	display: block;
+	padding: 10px;
+}
+
+.number {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 1000;
+	color: #FFC80F;
+}
+
+.number2 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 1000;
+}
+
+.navigation label {
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+}
+
+.line {
+	width: 100vw;
+	height: 5px;
+	background-color: #BBB;
+	margin-top: 3px;
+}
+
+h1 {
+	font-family: 'Noto Sans TC', '微軟正黑體';
+	color: #1b88ba;
+	font-weight: 1000;
+	font-size: 35px;
+	text-align: center;
+}
+
+h1 small {
+	font-size: 25px;
+	color: #EEE;
+	display: block;
+	text-shadow: 2px 2px 3px black;
+}
+
+h1 p {
+	font-family: 'Noto Sans TC', '微軟正黑體';
+	color: #8F8F8F;
+	font-weight: 800;
+	font-size: 25px;
+	text-align: center;
+}
+
+.phase_1 {
+	margin-left: 20vw;
+	margin-right: 20vw;
+	width: 60vw;
+}
+
+.phase_2 {
+	margin-left: 20vw;
+	margin-right: 20vw;
+	width: 60vw;
+}
+
+.phase_3 {
+	margin-left: 20vw;
+	margin-right: 20vw;
+	width: 60vw;
+}
+
+.phase_4 {
+	margin-left: 20vw;
+	margin-right: 20vw;
+	width: 60vw;
+}
+
+.submitButton {
+	background-color: white;
+	color: #555;
+	border: 3.5px solid #555555;
+}
+
+.submitButton:hover {
+	background-color: #555555;
+	color: white;
+}
+
+.buttons {
+	float: right;
+	margin-right: 15%;
+}
+
+.button {
+	font-family: 'Noto Sans TC', '微軟正黑體';
+	font-weight: 600;
+	padding: 10px 40px;
+	text-align: center;
+	display: inline-block;
+	font-size: 25px;
+	-webkit-transition-duration: 1s;
+	transition-duration: 1s;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+input { margin-left: 15%; }
